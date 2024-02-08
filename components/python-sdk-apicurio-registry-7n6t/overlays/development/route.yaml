@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: python-sdk-apicurio-registry-7n6t
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: python-sdk-apicurio-registry-7n6t
+    app.kubernetes.io/part-of: apicurio-registry-1
+  name: python-sdk-apicurio-regisimka
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: python-sdk-apicurio-registry-7n6t
+    weight: null
+status: {}
