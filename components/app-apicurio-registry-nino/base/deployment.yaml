@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: apicurio-registry-1
   name: app-apicurio-registry-nino
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
