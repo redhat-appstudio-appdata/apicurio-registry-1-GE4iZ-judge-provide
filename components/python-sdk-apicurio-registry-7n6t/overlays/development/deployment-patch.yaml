@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: python-sdk-apicurio-registry-7n6t
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
