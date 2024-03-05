@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python-sdk-apicurio-registry-7n6t
     app.kubernetes.io/part-of: apicurio-registry-1
-  name: python-sdk-apicurio-regisimka
+  name: python-sdk-apicurio-regisnm3y
 spec:
   path: /
   port:
