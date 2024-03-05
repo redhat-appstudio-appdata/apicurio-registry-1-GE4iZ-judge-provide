@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/apicurio-registry-1/python-sdk-apicurio-registry-7n6t@sha256:201431afa19d181acff48943ebd9d410be03b3a5ac97e7ce9e300840406ac08e
+      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/apicurio-registry-1/python-sdk-apicurio-registry-7n6t@sha256:499e678c5a9cf9e6b00f2fcd003d9313dd654d32102d5739a4906ce3edf1cd5b
         name: my-python
         resources: {}
 status: {}
